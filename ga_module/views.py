@@ -7,4 +7,8 @@ def ga_module(request):
     template = loader.get_template('index.html')
     return HttpResponse(template.render())
 
+def profiles(request):
+    template = loader.get_template('profiles.html')
+    return HttpResponse(template.render())
+
 
